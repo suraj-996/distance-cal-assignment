@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/distance-cal-assignment/static/css/main.f35a2564.css",
+    "main.js": "/distance-cal-assignment/static/js/main.8cf3863d.js",
+    "index.html": "/distance-cal-assignment/index.html",
+    "main.f35a2564.css.map": "/distance-cal-assignment/static/css/main.f35a2564.css.map",
+    "main.8cf3863d.js.map": "/distance-cal-assignment/static/js/main.8cf3863d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f35a2564.css",
+    "static/js/main.8cf3863d.js"
+  ]
+}
