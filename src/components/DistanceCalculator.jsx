@@ -24,7 +24,12 @@ const DistanceCalculator = () => {
         setCost(GetCost(startCity,endCity,middleStop));
         console.log(cost);
     }
-    
+    let ans;
+    if(cost>=0){
+        ans=`Cost : ${cost} paise`
+    }else{
+        ans=cost;
+    }
     return (
         <>
         <Navbar/>
@@ -68,7 +73,8 @@ const DistanceCalculator = () => {
                     <button className='text-3xl my-5 m-auto py-2 px-2 bg-slate-400 ' type="submit">Get Distance</button>
                     
                     </div>
-                    <p className='flex justify-center text-5xl text-blue-600 font-medium'>Cost: {cost} paise</p>
+                    
+                    <p className='flex justify-center text-5xl text-blue-600 font-medium'>{ans}</p>
                 </form>
             
             </div>
